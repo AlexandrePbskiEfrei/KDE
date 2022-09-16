@@ -1,0 +1,35 @@
+{
+  "plateform":{
+    "host": "http://Casip25/Kasem3",
+    "user": "interq",
+    "password": "interq",
+    "agent": "InterQ - Renault"
+  },
+  "data":[
+    {
+      "name":"tool_35",
+      "features_label" : ["mean_med", "slope_med", "mean_std","slope_std"],
+      "features_var":"OP390_Phase_T45_KDE_TAB_SP_Current",
+      "bandwidths":[0.05, 0.07, 0.1]
+    },
+    {
+      "name":"tool_45",
+      "features_label" : ["SP_mean_med", "SP_slope_med", "SP_mean_std","SP_slope_std"],
+      "features_var":"OP390_Phase_T45_KDE_TAB_SP_Current",
+      "bandwidths": null
+    },
+    {
+      "name":"tool_22",
+      "features_label" : ["SP_mean_med", "SP_slope_med", "SP_mean_std","SP_slope_std"],
+      "features_var":"OP390_Phase_T22_KDE_TAB_SP_Current",
+      "bandwidths": null
+    },
+    {
+      "name":"tool_24",
+      "features_label" : ["SP_mean_med", "SP_slope_med", "SP_mean_std","SP_slope_std"],
+      "features_var":"OP390_Phase_T24_KDE_TAB_SP_Current",
+      "bandwidths": null
+    }
+    
+  ]
+}
