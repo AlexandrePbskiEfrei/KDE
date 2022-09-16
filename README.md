@@ -1,5 +1,5 @@
 # KDE
-Intership Trace. Using KDE so display to wear based on current fluctuations.
+Intership Trace. Using KDE so display tool wear based on current fluctuations.
 
 Using JSON as entry with platform logs, specified tools and bandwiths to work on.
 (specify "None" in "bandwith" will trigger a GridSearch to fine the most optimal bandwidth to the given tool)
